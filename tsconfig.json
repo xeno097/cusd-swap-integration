@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "incremental": true,
+
+    /* Language and Environment */
+    "target": "ES2021",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Modules */
+    "module": "commonjs",
+    "baseUrl": "./",
+
+    /* Emit */
+    "outDir": "./dist",
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": true,
+
+    /* Type Checking */
+    "strict": true,   
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictBindCallApply": true,
+    "allowUnreachableCode":false,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitThis": true,
+
+    /* Interop Constraints */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Completeness */
+    "skipLibCheck": true,
+  }
+}

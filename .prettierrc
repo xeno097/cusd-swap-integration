@@ -1,0 +1,9 @@
+{
+  "singleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "semi": true,
+  "arrowParens": "avoid",
+  "plugins": ["prettier-plugin-organize-imports", "eslint-plugin-prettier"]
+}
